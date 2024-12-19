@@ -67,11 +67,11 @@ const Navbar = () => {
     >
       <Link to="/">
         {/* <img className='brand-logo logo' src="./images/ecell-logo-bw2.png" alt="ecell-logo-bw2" /> */}
-        <img
+        {/* <img
           className="brand-logo logo"
           src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678341163/Ecell%20website/ecell-logo-bw2_sayvqp.webp"
           alt="ecell-logo-bw2"
-        />
+        /> */}
       </Link>
       <div className="toggle-icon" onClick={handleToggle}>
         {toggle ? <ImCross size={20} /> : <GiHamburgerMenu size={25} />}
@@ -86,17 +86,21 @@ const Navbar = () => {
         </li>
         <li>
           {" "}
-          <NavLink to="/events">EVENTS</NavLink>
+          {/* <NavLink to="/events">EVENTS</NavLink> */}
+          <NavLink to="/">EVENTS</NavLink>
         </li>
         <li>
-          <NavLink to="/resources">RESOURCES</NavLink>
+          {/* <NavLink to="/resources">RESOURCES</NavLink> */}
+          <NavLink to="/">RESOURCES</NavLink>
         </li>
         {/* <li><a href="https://srijan-nits.in/" rel="noreferrer" target="_blank">SRIJAN</a></li> */}
         <li>
-          <NavLink to="/team">OUR TEAM</NavLink>
+          {/* <NavLink to="/team">OUR TEAM</NavLink> */}
+          <NavLink to="/">OUR TEAM</NavLink>
         </li>
         <li>
-          <NavLink to="/gallery">GALLERY</NavLink>
+          {/* <NavLink to="/gallery">GALLERY</NavLink> */}
+          <NavLink to="/">GALLERY</NavLink>
         </li>
         {/* <li>
           <NavLink to="/recruiting">JOIN US</NavLink>

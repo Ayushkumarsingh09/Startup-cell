@@ -139,13 +139,13 @@ const Footer = () => {
     <div className="footer-section">
       <div className="fcontainer">
         <div className="container1">
-          <Link to="/">
+          {/* <Link to="/">
             <img
               className="img-foot-centr"
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678341670/Ecell%20website/E-Cell-Logo-White_qhkb0q.webp"
               alt="logo"
             />
-          </Link>
+          </Link> */}
         </div>
 
         <div className="container2">
@@ -153,7 +153,7 @@ const Footer = () => {
           <ul className="no-bullets">
             <li>
               <BiUserCircle className="f_icon" />
-              <span className="i-text">StartUp Center</span>
+              <span className="i-text">Startpp Cell</span>
             </li>
             <a
               href="https://www.google.com/maps/place/Startup+Centre,+NIT+Silchar/@24.7579056,92.7889985,19z/data=!4m15!1m8!3m7!1s0x374e491f73d2d93d:0x40b0c4ddd14239f4!2sStartup+Centre,+NIT+Silchar!8m2!3d24.7577034!4d92.7895376!10e5!16s%2Fg%2F11h1klwlpg!3m5!1s0x374e491f73d2d93d:0x40b0c4ddd14239f4!8m2!3d24.7577034!4d92.7895376!16s%2Fg%2F11h1klwlpg"
@@ -169,11 +169,11 @@ const Footer = () => {
                 </span>
               </li>
             </a>
-            <a href="mailto:ecell@iiitbh.ac.in">
+            <a href="mailto:startupcell@iiitbh.ac.in">
               {" "}
               <li>
                 <FiMail className="f_icon" />
-                <span className="i-text">ecell@iiitbh.ac.in</span>
+                <span className="i-text">startupcell@iiitbh.ac.in</span>
               </li>
             </a>
             <a href="tel:+91 1234567890">
@@ -191,7 +191,7 @@ const Footer = () => {
             <span className="s_head">Social</span>
           </h2>
           <a
-            href="https://www.facebook.com/ecell.nit.silchar?mibextid=ZbWKwL"
+            href="https://www.facebook.com"
             className="footer_social_Logo"
             target={"_blank"}
             rel="noreferrer"
@@ -200,7 +200,7 @@ const Footer = () => {
             <span className="i-text">Facebook</span>
           </a>
           <a
-            href="https://www.linkedin.com/company/ecell-nit-silchar/"
+            href="https://www.linkedin.com"
             className="footer_social_Logo"
             id="link_ln"
             target={"_blank"}
@@ -210,7 +210,7 @@ const Footer = () => {
             <span className="i-text">Linkedln</span>
           </a>
           <a
-            href="https://instagram.com/ecell.nitsilchar?igshid=YmMyMTA2M2Y="
+            href="https://instagram.com"
             className="footer_social_Logo"
             target={"_blank"}
             rel="noreferrer"
@@ -251,7 +251,7 @@ const Footer = () => {
           {checkingemail && <p>Verifying email...</p>}
         </div>
         <div className="container5">
-          <p className="p2">All Rights Reserved @E-Cell, IIIT Bhagalpur </p>
+          <p className="p2">All Rights Reserved @Startup Cell, IIIT Bhagalpur </p>
           <div className="p2 mnjkl">
             Current user :{" "}
             <div className="ipdtls">

@@ -37,13 +37,13 @@ function About_us() {
         {/* <div className="underline"></div> */}
         <div className="contentAbout">
           <p>
-            E-Cell, IIIT Bhagalpur is a non-profit student-run organization promoting and
-            nurturing the entrepreneurial spirit among students. It offers pre-incubation
-            facilities to startups and encourages students to work on their ideas through
-            events. E-Cell &apos; s mission is to improve the culture of entrepreneurship
-            in technical and non-technical fields and uplift students to innovate and
-            develop their models. Its objective is to develop the spirit of
-            entrepreneurship by providing various programs and events such as Srijan to
+            Startup Cell, IIIT Bhagalpur is a non-profit student-run organization
+            promoting and nurturing the entrepreneurial spirit among students. It offers
+            pre-incubation facilities to startups and encourages students to work on their
+            ideas through events. Startup Cell &apos; s mission is to improve the culture
+            of entrepreneurship in technical and non-technical fields and uplift students
+            to innovate and develop their models. Its objective is to develop the spirit
+            of entrepreneurship by providing various programs and events such as Srijan to
             educate students on financial literacy, real-world problem-solving skills, and
             event management.{" "}
           </p>
