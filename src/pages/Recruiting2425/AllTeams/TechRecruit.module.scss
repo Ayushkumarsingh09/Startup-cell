@@ -1,0 +1,127 @@
+.techContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: auto;
+  width: 90%;
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  ul {
+    li {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    a {
+      color: var(--text-color-primary) !important;
+      font-weight: 500;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .techForm {
+    width: 100%;
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin-inline: auto;
+      justify-content: center;
+      align-items: center;
+      label {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      input {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      select {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .required {
+        color: var(--text-color-red);
+      }
+      .teams {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        width: fit-content;
+        .teams_item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          input[type="checkbox"] {
+            margin: 0;
+            width: 1.15em;
+            height: 1.15em;
+          }
+          label {
+            margin: 0;
+          }
+        }
+      }
+      button {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: fit-content;
+        background-color: var(--bg-color-primary);
+        color: var(--text-color-grey);
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: var(--bg-color-primary);
+          color: var(--text-color-white);
+          transform: scale(1.1);
+        }
+      }
+      .email {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+        input {
+          width: 100%;
+          margin-bottom: 0;
+        }
+      }
+      .contri {
+        border: solid 1px var(--border-color-primary);
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 10px;
+        margin-bottom: 20px;
+        overflow-y: scroll;
+        box-sizing: border-box;
+        border: 2px solid var(--border-color-grey-light);
+        border-radius: 4px;
+        height: 20vh;
+      }
+    }
+  }
+}

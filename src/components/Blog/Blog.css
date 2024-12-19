@@ -1,0 +1,425 @@
+.briefintrohldman p {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 660px) {
+  .briefintrohldman p {
+    font-size: 5.5vw;
+  }
+}
+
+.mainblogstarts {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.leftblogcontent {
+  width: 75%;
+}
+
+/* .rightblogcontent{
+    width: 25%;
+    position: sticky;
+    top: 0;
+    
+} */
+
+.btnsorting {
+  display: flex;
+  align-items: center;
+}
+
+.btnlatestoldest {
+  margin-left: 3vw;
+}
+
+.sortkaro {
+  font-size: 2.5vw;
+  color: var(--text-color-primary);
+}
+
+.btnlatestoldest button {
+  background: none;
+  outline: none;
+  border: none;
+  color: var(--text-color-grey-light);
+  font-size: 2.5vw;
+  font-weight: 500;
+}
+
+.btnfiltertag {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 40vh;
+  /* margin-bottom: 10vw;
+  padding-top: 10vw; */
+}
+
+.btnfiltertag button {
+  display: block;
+  background: none;
+  outline: none;
+  border: 1px solid var(--border-color-grey);
+  color: var(--text-color-grey);
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin: 8vw 1vw 0 1vw;
+  padding: 0.25vw;
+  border-radius: 6.76px;
+}
+
+.activetagcolored.active {
+  color: var(--text-color-grey);
+  border: 2px solid var(--text-color-primary-light);
+}
+
+#moreold {
+  margin-left: 1.5vw;
+}
+
+.newblogaddbtn {
+  background-color: var(--bg-color-primary-light);
+  border: none;
+  outline: none;
+  border-radius: 10.97px;
+  color: var(--text-color-white);
+  font-size: 2.45vw;
+  padding: 0.7vw 3.8vw;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.categ {
+  border: none !important;
+}
+
+.newblogaddbtn:focus {
+  box-shadow: 0 0 0 5px var(--box-shadow-color-primary);
+}
+
+.skel {
+  background-color: var(--border-color-grey) !important;
+  animation: pulse 1.5s infinite;
+  border-radius: 0.5rem;
+  min-height: 1rem;
+}
+
+.mainparentblogindicard {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: first baseline; */
+  flex-wrap: wrap;
+}
+
+.indicardblog {
+  background-color: var(--bg-color-white);
+  user-select: none;
+  flex: none;
+  order: 1;
+  width: 45%;
+  border: 1.5px solid var(--border-color-grey);
+  border-radius: 6.13px;
+  padding: 1vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.imgholdercontblog {
+  width: 100%;
+  height: 20vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.btnlatestoldest button.active {
+  color: var(--text-color-grey);
+}
+
+.imgholdercontblog img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+  transition:
+    filter 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.imgholdercontblog:hover img {
+  transform: scale(1.09);
+}
+
+.titlehainlogindi {
+  color: var(--text-color-primary-or-white);
+  font-size: 2.25vw;
+  font-weight: 600;
+  margin-top: 0.35vw;
+  margin-bottom: 0.15vw !important;
+}
+
+.whowrittenblog h2 {
+  color: var(--light-text-color);
+  margin-bottom: 0;
+  font-size: 1.4vw;
+  margin-bottom: 0.35vw;
+  display: inline-block;
+}
+
+.whowrittenblogsk {
+  min-height: 1.8rem;
+  margin-top: 0.5rem;
+  width: 60%;
+  margin-bottom: 0.35vw;
+  max-width: 100%;
+}
+
+.whoholdsthetag {
+  display: flex;
+}
+
+.whoholdsthetag button {
+  background: transparent;
+  color: var(--light-text-color);
+  border: 1.9px solid var(--light-text-color);
+  border-radius: 6.13px;
+  font-size: 1vw;
+  padding: 0.15vw;
+  min-width: 4rem;
+  margin: 0.5vw 0 0.5vw 0.5vw;
+}
+
+.whoholdsthetag button a {
+  color: var(--text-color-grey) !important;
+}
+
+.buttonmarginlft {
+  margin-left: 0.55vw !important;
+}
+
+.secondtaghlder {
+  margin-left: 2vw !important;
+}
+
+.briefintrohldman {
+  margin: 0vw 0 1vw 0;
+  min-height: 8rem;
+}
+
+.briefintrohldman p {
+  color: var(--light-text-color);
+}
+
+.kretrhereading {
+  background-color: var(--bg-color-primary-light);
+  color: var(--text-color-white);
+  border: none;
+  outline: none;
+  border-radius: 5.05px;
+  padding: 0.5vw 1vw;
+  transition: all 0.3s;
+}
+
+.kretrhereading:active {
+  box-shadow: 0 0 0 5px var(--box-shadow-color-primary);
+}
+#pblshbtn {
+  margin-bottom: 0.35vw;
+}
+
+.dewefd {
+  padding-top: 6rem;
+}
+
+.btnholderprovisi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.msgonblogcnt {
+  margin-top: 1.5vw;
+  font-size: 1.5vw;
+}
+
+#btnthirdtag {
+  margin: 2vw 0 50vw 3vw;
+}
+
+#allblogswrittenbuuser {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 5vw;
+}
+
+#paddinginpublishlist {
+  padding-top: 0vw;
+}
+
+#btnholderslikeread {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likekarobhaiblog {
+  background: transparent;
+  color: var(--light-text-color);
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+}
+
+#akwmidthsamedesign {
+  width: 35%;
+}
+
+#flextwobtnonedit {
+  display: flex;
+  justify-content: space-between;
+}
+
+#loadingkrrhebhaiblogs {
+  font-size: 2vw;
+}
+
+@media (max-width: 660px) {
+  .mainblogstarts {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .leftblogcontent {
+    padding: 4vw;
+    width: 100%;
+  }
+
+  .sortkaro {
+    font-size: 6vw;
+  }
+
+  .btnlatestoldest button {
+    font-size: 6vw;
+  }
+
+  #moreold {
+    margin-left: 5vw;
+  }
+
+  .msgonblogcnt {
+    margin-top: 4vw;
+    font-size: 4vw;
+  }
+
+  .mainparentblogindicard {
+    margin-top: 10vw;
+  }
+
+  .indicardblog {
+    width: 90%;
+    margin: 5vw auto;
+    padding: 2vw;
+  }
+
+  .imgholdercontblog {
+    width: 100%;
+    height: 50vw;
+  }
+
+  .titlehainlogindi {
+    font-size: 5.25vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw !important;
+  }
+
+  .whowrittenblog h2 {
+    font-size: 4.5vw;
+    margin-bottom: 0.35vw;
+  }
+
+  .whoholdsthetag button {
+    font-size: 2.9vw;
+    padding: 0.75vw;
+    margin: 2.3vw 0;
+  }
+
+  .buttonmarginlft {
+    margin-left: 2vw !important;
+  }
+
+  .kretrhereading {
+    padding: 1vw 4vw;
+    font-size: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  .rightblogcontent {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .newblogaddbtn {
+    font-size: 5.45vw;
+    padding: 1.5vw 5vw;
+    display: block;
+    margin: 4vw auto;
+  }
+
+  .btnfiltertag {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .btnfiltertag button {
+    font-size: 3.8vw;
+    font-weight: 500;
+    border-radius: 6.76px;
+    padding: 3vw;
+  }
+
+  #btnthirdtag {
+    margin: 0 2vw;
+    margin-top: 8vw;
+    padding: 3vw !important;
+  }
+
+  .dewefd {
+    padding-top: 8vw;
+  }
+
+  .likekarobhaiblog {
+    background-color: var(--bg-color-body);
+    color: var(--light-text-color);
+    align-items: baseline;
+    font-size: 5vw;
+  }
+
+  #loadingkrrhebhaiblogs {
+    font-size: 4vw;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 30%;
+  }
+  50% {
+    opacity: 70%;
+  }
+  100% {
+    opacity: 30%;
+  }
+}

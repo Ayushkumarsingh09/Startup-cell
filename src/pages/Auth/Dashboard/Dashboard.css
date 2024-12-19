@@ -1,0 +1,238 @@
+.dashboardmain {
+  padding-top: 7vw;
+}
+
+.flexingphotocontent {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5vw;
+}
+
+.phhotodash {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.photodashimg {
+  width: 100%;
+  height: 30vw;
+}
+
+.photodashimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10.67px;
+  box-shadow: 0 0 10px var(--box-shadow-color-black-2);
+  pointer-events: none;
+}
+
+.biodashboardd {
+  padding-left: 3%;
+  width: 67%;
+}
+
+.accountusername {
+  color: var(--light-text-color);
+  font-weight: 600;
+  font-size: 3vw;
+  width: 50%;
+}
+.profile-buttons {
+  display: flex;
+  gap: 1vw;
+  flex-wrap: wrap;
+}
+#admin-button {
+  color: var(--text-color-primary);
+  border-color: var(--border-color-primary);
+}
+.firstseconndchild {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.editkryieprof {
+  color: var(----text-color-red);
+  border: 2px solid var(--border-color-red);
+  background-color: var(--bg-color-white);
+  padding: 0.25vw 1.5vw !important;
+  border-radius: 7.59px;
+  font-size: 1.7vw;
+}
+
+.biohbhauidhar {
+  background-color: var(--box-bg-color);
+  margin: 4vw 0 2.9vw 0;
+  padding: 1.3vw;
+  border: 2px solid var(--border-color-grey);
+  border-radius: 16.7px;
+}
+
+.biohbhauidhar h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--light-text-color);
+  font-size: 1.3vw;
+  line-height: 1.6;
+}
+
+#tabchangerdashboard {
+  padding-top: 0;
+}
+
+.profeftcontparnt {
+  text-align: right;
+}
+
+#sirfcolorchng {
+  color: var(--text-color-primary);
+  border: 2px solid var(--border-color-primary);
+  /* margin-left: 17vw; */
+  padding: 0.25vw 3vw !important;
+}
+
+.namenadbtnsinsame {
+  display: flex;
+}
+
+.usernamehlderdash {
+  width: 80% !important;
+}
+
+.btnholrgdashbo {
+  width: 40%;
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+#blogs_under_profile_protected {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#indicardblog_protct {
+  user-select: none;
+  flex: none;
+  order: 1;
+  width: 31%;
+  border: 1.5px solid var(--border-color-grey);
+  border-radius: 6.13px;
+  padding: 1vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.smediaconnectlinks {
+  display: flex;
+  margin: 1vw 0;
+  justify-content: center;
+}
+
+#igfaa,
+#githubfaa,
+#linkkedinfaa {
+  margin-left: 1vw;
+}
+
+.smedia1div {
+  font-size: 2.25vw;
+}
+
+.smedia1div button {
+  background-color: var(--body-bg-color);
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid var(--light-text-color);
+  outline: none;
+  color: var(--light-text-color);
+}
+
+@media (max-width: 660px) {
+  #indicardblog_protct {
+    width: 90%;
+    margin: 5vw auto;
+    padding: 2vw;
+  }
+
+  .flexingphotocontent {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10vw;
+  }
+
+  .phhotodash {
+    width: 60vw;
+    margin: 5vw auto;
+  }
+
+  .photodashimg {
+    width: 60vw;
+    height: 60vw;
+  }
+
+  .photodashimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10.67px;
+  }
+
+  .biodashboardd {
+    width: 100% !important;
+    padding-left: 0;
+  }
+
+  .accountusername {
+    font-weight: 600;
+    font-size: 5vw;
+    width: 45vw;
+    text-wrap: wrap;
+  }
+
+  .editkryieprof {
+    padding: 0.75vw 3vw !important;
+    border-radius: 7.59px;
+    font-size: 3.4vw;
+  }
+
+  #sirfcolorchng {
+    padding: 0.75vw 5vw !important;
+  }
+
+  .biohbhauidhar {
+    width: 100% !important;
+    margin: 8vw 0 2.9vw 0;
+    padding: 3vw;
+  }
+
+  .biohbhauidhar h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--text-color-grey);
+    font-size: 3vw;
+    line-height: 1.6;
+  }
+
+  .smediaconnectlinks {
+    display: flex;
+    margin: 3vw 0;
+  }
+
+  #igfaa,
+  #githubfaa,
+  #linkkedinfaa {
+    margin-left: 2vw;
+  }
+
+  .smedia1div {
+    font-size: 5vw;
+  }
+}

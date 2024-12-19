@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Sahin Alam",
+    "rank": "Senior developer",
+    "image": "https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Ecell/Junior%20Developer/Sahin",
+    "fb": "https://www.facebook.com/sahin.alam.9216778?mibextid=ZbWKwL",
+    "linkedln": "https://www.linkedin.com/in/sahin-alam-96250324a/",
+    "git": "https://github.com/ruler45"
+  },
+  {
+    "id": 2,
+    "name": "Bedanta Kataki",
+    "rank": "Senior Web Developer",
+    "image": "https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Ecell/Junior%20Developer/Bedanta",
+    "fb": "https://m.facebook.com/profile.php/?id=100029303175539&name=xhp_nt__fb__action__open_user",
+    "linkedln": "https://www.linkedin.com/in/bedanta-kataki-0b5205257/",
+    "git": "https://www.github.com/r4inr3aper/"
+  },
+  {
+    "id": 3,
+    "name": "Siddharth Ghosh",
+    "rank": "Senior UI/UX Developer",
+    "image": "https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Ecell/Junior%20Developer/Siddharth",
+    "fb": "https://www.facebook.com/profile.php?id=100070117330528",
+    "linkedln": "https://www.linkedin.com/in/siddharth-ghosh-18ba29251/",
+    "git": "https://github.com/Z-Maniac-Sidd"
+  },
+  {
+    "id": 4,
+    "name": "Diptangshu Chakraborty",
+    "rank": "Senior Flutter Developer",
+    "image": "https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Ecell/Junior%20Developer/Diptangshu",
+    "fb": "",
+    "linkedln": "https://www.linkedin.com/in/diptangshu-chakraborty-463b77250",
+    "git": "https://github.com/Diptanghsu-DC"
+  },
+  {
+    "id": 5,
+    "name": "Dhiraj Das",
+    "rank": "Senior Web Developer",
+    "image": "https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Ecell/Junior%20Developer/Dhiraj",
+    "fb": "https://www.facebook.com/dheeraj.das.7165/",
+    "linkedln": "https://www.linkedin.com/in/dhiraj-das-a26042249/",
+    "git": "https://github.com/dheeraj1922d"
+  }
+]

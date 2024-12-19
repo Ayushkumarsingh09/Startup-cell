@@ -1,0 +1,44 @@
+.Gallery_card {
+  width: 25vw;
+  height: 16rem;
+  overflow: hidden;
+  box-shadow:
+    4px 4px 12px var(--box-shadow-color-black-1),
+    -4px -4px 12px var(--box-shadow-color-black-2);
+  border-radius: 8px;
+  margin: 2.5vw;
+}
+
+.Gallery_card:hover {
+  cursor: pointer;
+}
+.Gallery_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_title {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .Gallery_card {
+    width: 40vw;
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Gallery_card {
+    width: 24rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Gallery_card {
+    width: 90vw;
+    height: 60vw;
+  }
+}

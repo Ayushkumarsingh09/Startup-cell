@@ -1,0 +1,120 @@
+.sidebar-admin {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color-primary);
+  color: var(--text-color-white);
+  width: 15vw;
+  height: 100vh;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 99;
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    gap: 0.625rem;
+    .logo {
+      height: 3rem;
+    }
+  }
+  .sidebar-admin-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5vw;
+    @media screen and (max-width: 768px) {
+      width: 50%;
+      gap: 0.5rem;
+      padding: 0.625rem;
+    }
+    a {
+      color: var(--text-color-white);
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      transition: 0.3s;
+      position: relative;
+      @media screen and (max-width: 768px) {
+        padding: 0.25rem 0.5rem;
+      }
+
+      &::after {
+        content: "";
+        width: 0;
+        height: 5px;
+        background-color: var(--bg-color-white);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        border-radius: 0.5rem;
+        transform-origin: center;
+        transition: 0.3s;
+      }
+      &:hover {
+        &::after {
+          width: 50%;
+          height: 3px;
+        }
+      }
+    }
+    .active {
+      width: fit-content;
+      &::after {
+        width: 50%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+  button {
+    color: var(--text-color-white);
+    border: 2px solid var(--border-color-grey-light);
+    background-color: transparent;
+    padding: 0.25vw 1.5vw !important;
+    border-radius: 7.59px;
+    font-size: 1.7vw;
+    width: fit-content;
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+      border: 1px solid var(--border-color-grey-light);
+    }
+  }
+}
+.menu {
+  position: fixed;
+  color: var(--text-color-white);
+  right: 1rem;
+  top: 1rem;
+  z-index: 100;
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar-admin {
+    width: 0;
+    transition: 0.3s;
+  }
+  // .active {
+  //   width: 100vw;
+  // //}
+}
