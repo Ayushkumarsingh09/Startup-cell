@@ -165,22 +165,22 @@ const Footer = () => {
                 <MdLocationOn className="f_icon" />
                 <span className="i-text">
                   {" "}
-                  NIT Silchar, Silchar, Assam, India-788010{" "}
+                  IIIT Bhagalpur, Bhagalpur, Bihar, India-813210{" "}
                 </span>
               </li>
             </a>
-            <a href="mailto:ecell@nits.ac.in">
+            <a href="mailto:ecell@iiitbh.ac.in">
               {" "}
               <li>
                 <FiMail className="f_icon" />
-                <span className="i-text">ecell@nits.ac.in</span>
+                <span className="i-text">ecell@iiitbh.ac.in</span>
               </li>
             </a>
-            <a href="tel:+91 9795888891">
+            <a href="tel:+91 1234567890">
               {" "}
               <li>
                 <BsFillTelephoneFill className="f_icon" />
-                <span className="i-text">+91 6388689290</span>
+                <span className="i-text">+91 1234567890</span>
               </li>
             </a>
           </ul>
@@ -251,7 +251,7 @@ const Footer = () => {
           {checkingemail && <p>Verifying email...</p>}
         </div>
         <div className="container5">
-          <p className="p2">All Rights Reserved @E-Cell, NIT Silchar </p>
+          <p className="p2">All Rights Reserved @E-Cell, IIIT Bhagalpur </p>
           <div className="p2 mnjkl">
             Current user :{" "}
             <div className="ipdtls">

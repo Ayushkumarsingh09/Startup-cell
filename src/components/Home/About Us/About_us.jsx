@@ -37,7 +37,7 @@ function About_us() {
         {/* <div className="underline"></div> */}
         <div className="contentAbout">
           <p>
-            E-Cell, NIT Silchar is a non-profit student-run organization promoting and
+            E-Cell, IIIT Bhagalpur is a non-profit student-run organization promoting and
             nurturing the entrepreneurial spirit among students. It offers pre-incubation
             facilities to startups and encourages students to work on their ideas through
             events. E-Cell &apos; s mission is to improve the culture of entrepreneurship
